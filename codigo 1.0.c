@@ -258,7 +258,7 @@ void mostrar(struct INFO v[],int cem, int cant_v[], int sem)
 ///////////////////////////////////////////
 void burbujeo(struct INFO v[], int cem)
 {
-    int i=0,c,aux2;
+    int i=0,c,aux;
     float aux2;
     char aux3[80];
 
