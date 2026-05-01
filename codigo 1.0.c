@@ -258,7 +258,7 @@ void mostrar(struct INFO v[],int cem, int cant_v[], int sem)
 ///////////////////////////////////////////
 void burbujeo(struct INFO v[], int cem)
 {
-    int i=0,c,aux;
+    int i=0,c,aux,aux4;
     float aux2;
     char aux3[80];
 
@@ -268,17 +268,21 @@ void burbujeo(struct INFO v[], int cem)
         {
             if(v[c].importe<v[c+1].importe)
             {
-                aux=v[c].importe;
+                aux2=v[c].importe;
                 v[c].importe=v[c+1].importe;
-                v[c+1].importe=aux;
+                v[c+1].importe=aux2;
 
-                aux2=v[c].cli;
+                aux=v[c].cli;
                 v[c].cli=v[c+1].cli;
-                v[c+1].cli=aux2;
+                v[c+1].cli=aux;
 
                 strcpy(aux3,v[c].nya);
                 strcpy(v[c].nya,v[c+1].nya);
                 strcpy(v[c+1].nya,aux3);
+
+                aux4=v[c].con_cli;
+                v[c].cont_cli=v[c+1].cont_cli;
+                v[c+1].cont_cli=v[c].cont_cli;
 
             }
         }
