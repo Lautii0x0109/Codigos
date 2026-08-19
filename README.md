@@ -2,8 +2,6 @@ Programación en C
 
 Repositorio dedicado a mis proyectos, ejercicios y prácticas desarrolladas en lenguaje C durante mi formación en Ingeniería Informática.
 
-Contenido
-
 En este repositorio se encuentran diferentes trabajos relacionados con:
 
 - Fundamentos de programación
@@ -16,7 +14,7 @@ En este repositorio se encuentran diferentes trabajos relacionados con:
 - Algoritmos
 - Validación y procesamiento de datos
 
-Tecnologías
+Tecnologías utilizadas
 
 - C
 - Visual Studio Code
